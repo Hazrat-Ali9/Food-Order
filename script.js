@@ -2,7 +2,7 @@ let cardContainer = document.getElementById("item_box");
 
 let itemCard = [];
 let RESULT;
-
+// Handel ID
 function handleAddItem(id) {
   let obj = RESULT.find((val) => val.id === id);
 
